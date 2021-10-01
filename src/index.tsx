@@ -41,7 +41,6 @@ createServer({
 
       data.createdAt = new Date()
 
-      console.log(data)
       return schema.create('transaction', data)
     })
   }
